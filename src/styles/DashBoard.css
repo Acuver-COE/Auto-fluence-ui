@@ -1,0 +1,42 @@
+.side-nav {
+    background-color: #e4e6ea;
+    position: fixed;
+    /* border-radius: 4px; */
+    height: 100vh;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 225px;
+    /* overflow-y: scroll; */
+}
+
+.userHeaderLogo {
+    height: 100px !important;
+    width: 100px !important;
+    padding: 15px;
+    content: url("./../files/AUTO_FLUENCE_LOGO.png");
+    cursor: pointer;
+}
+
+.mobile-header{
+    background-color: #e4e6ea;
+    padding: 15px;
+    height: 50px !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+}
+
+.mobile-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px !important;
+
+}
+
+.footer-block, .mobile-footer {
+    /* background-color: #e4e6ea; */
+    position: relative !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e4e6ea !important;
+}

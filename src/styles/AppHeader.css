@@ -1,0 +1,13 @@
+.appHeader {
+    content: url("./../files/AUTO_FLUENCE_LOGO.png");
+    cursor: pointer;
+    height: 150px !important;
+    width: 150px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-background {
+    background-color: #ffffff;
+    /* background-color: #e4e6ea; */
+}

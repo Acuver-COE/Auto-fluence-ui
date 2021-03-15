@@ -1,0 +1,28 @@
+.orderFlowNav:hover {
+    background-color: #00a1bf;
+}
+
+.orderFlowNav {
+    padding: 15px;
+}
+
+.orderFlowNav:hover span {
+    color: #ffffff !important;
+}
+
+.side-nav-active {
+    background-color: #00a1bf;
+}
+
+#sideNavFooter {
+    bottom: 0;
+    position: absolute;
+    border-top: 0 30px 60px 0 rgba(0,0,0,0.3);
+    /* height: 100px; */
+}
+
+.scroll-container {
+    overflow-y: auto;
+    position: relative;
+    max-height: calc(100% - 200px);
+}

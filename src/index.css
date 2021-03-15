@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+html {
+  padding-bottom: 50px;
+  min-height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  height: 100vh;
+}
+
+#root {
+  height: 100% !important;
+}
+@import url('./styles/AppHeader.css');
+@import url('./styles/common.css');
+@import url('./styles/Login.css');
+@import url('./styles/DashBoard.css');
+@import url('./styles/UserFooter.css');
+@import url('./styles/SideNav.css');

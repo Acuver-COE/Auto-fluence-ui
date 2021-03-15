@@ -1,0 +1,126 @@
+.af-center-align {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+input {
+    padding: 10px 10px;
+    height: 100%;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+}
+
+.af-bottom-20 {
+    padding-bottom: 20px !important;
+}
+
+.af-bottom-30 {
+    padding-bottom: 30px !important;
+}
+
+.af-bottom-10 {
+    padding-bottom: 10px !important;
+}
+
+.af-horizontal {
+    /* border: 0.1px solid #a6a6a6; */
+    opacity: 0.5;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+
+.af-font-12 {
+    font-size: 12px;
+}
+
+.af-font-10 {
+    font-size: 10px;
+}
+
+.af-font-14 {
+    font-size: 14px;
+}
+
+.af-link {
+    text-decoration: none;
+    color: #0065bd;
+}
+
+.af-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0065bd;
+}
+
+.af-pointer {
+    cursor: pointer;
+}
+
+.af-font-sans {
+    font-family: sans-serif;
+}
+
+.af-line-18 {
+    line-height: 18px;
+}
+
+.af-line-20 {
+    line-height: 20px;
+}
+
+.af-line-22 {
+    line-height: 22px;
+}
+
+.af-error {
+    color: #af0000;
+}
+
+.af-padding-top-5 {
+    padding-top: 5px;
+}
+
+.af-inline-flex {
+    display: inline-flex;
+}
+
+.af-vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.af-padding-20 {
+    padding: 20px;
+}
+
+.af-text-center {
+    text-align: center;
+}
+
+.ant-layout-footer {
+    background-color: #ffffff !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .ant-drawer-content {
+      background-color: #e4e6ea !important;
+  }
